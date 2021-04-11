@@ -17,6 +17,9 @@ if __name__ == "__main__":
         elif age>=20:
           print("can participate in ",final_out[6])
           print("\n-------------------------------------------------------\n")
+        else:
+          print("invalid age input")
+          print("\n-------------------------------------------------------\n")
       elif gender=="girl":
         if 7<=age<=10:
           print("can participate in ",final_out[2])
@@ -30,5 +33,9 @@ if __name__ == "__main__":
         elif age>=20:
           print("can participate in ",final_out[6])
           print("\n-------------------------------------------------------\n")
+        else:
+          print("invalid age input")
+          print("\n-------------------------------------------------------\n")
       else:
         print("please enter a valid gender")
+        print("\n-------------------------------------------------------\n")
